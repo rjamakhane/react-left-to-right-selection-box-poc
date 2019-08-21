@@ -1,0 +1,24 @@
+.header{
+    position: fixed;
+    width: 100%;
+    color: #666666;
+    background: #ffffff;
+    height: 42px;
+    border-bottom: 2px solid #D8D8D8;
+    z-index: 101;
+    display: flex;
+    justify-content: flex-end;
+    h4 {
+        flex: 1 0 70%;
+    }
+    .section-title{
+        padding: 11px;
+    }
+    .btn-group{
+        
+        flex-direction: row-reverse;
+    }
+}
+.spacer{
+    height: 42px;
+}

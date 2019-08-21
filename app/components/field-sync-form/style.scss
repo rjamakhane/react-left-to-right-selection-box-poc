@@ -1,0 +1,55 @@
+.fields-container{
+    padding: 10px;
+    flex-grow: 1;
+    .block{
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .icons{
+        left: 30px;
+        position: relative;
+    }
+    .iconCls{
+        color:#0000008a;
+        cursor: pointer;
+        &:hover{
+            color:#67BA83;
+        }
+    }
+    .no-data{
+        text-align: center
+    }
+
+    .fixed-bar{
+        position: fixed;
+        width: 100%;
+        background: #000000;
+        color: #fff;
+        z-index: 101;
+        display: flex;
+        h3 {
+            flex: 1 0 70%;  
+        }
+        .btn-group{
+            flex: 1 0 30%;
+        }
+    }
+    .spacer{
+        height: 62px;
+    }
+    .box {
+        max-height: 400px;
+        min-height: 400px;
+        overflow: scroll;
+    }
+    .paper-title{
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        span{
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}
